@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: jgwill/gix-adaptive-style-transfer:gpu
 
 steps:
 - script: echo Hello, world!
